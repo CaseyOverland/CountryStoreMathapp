@@ -16,7 +16,7 @@ jobs:
         uses: ArtemSBulgakov/buildozer-action@v1
         id: buildozer
         with:
-          workdir: C:\Users\casey\Desktop\CountryStoreMathApp
+          workdir: scripts
           buildozer_version: stable
 
       - name: Upload artifacts
